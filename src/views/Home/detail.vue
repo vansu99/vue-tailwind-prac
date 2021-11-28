@@ -26,6 +26,7 @@ import { ref, onBeforeMount } from 'vue';
 import { useRoute } from 'vue-router';
 import axios from 'axios';
 import Nprogress from 'nprogress';
+
 export default {
   name: 'Detail',
   setup() {
