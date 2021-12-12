@@ -41,7 +41,7 @@ export default {
         );
         productDetail.value = response.data;
       } catch (e) {
-        console.log({ e });
+        throw new Error('Error ne')
       } finally {
         Nprogress.done();
       }
